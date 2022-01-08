@@ -22,10 +22,6 @@
 #headers #header-body #header-contents .logo {
 	float: left;
 	margin: 35px auto;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 30px;
-	color: white;
 }
 
 #headers #header-body #header-contents .menu-contents {
@@ -77,13 +73,6 @@
 	}
 	#mobile-headers .logo {
 		display: block;
-		position: relative;
-		width: 100px;
-		height: 25px;
-		font-family: sans-serif;
-		font-size: 20px;
-		color: white;
-		padding: 5px;
 		float: right;
 	}
 	#mobile-headers .ticket_content {

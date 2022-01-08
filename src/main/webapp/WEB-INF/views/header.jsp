@@ -5,7 +5,7 @@
 	<div id="header-body">
 		<div id="header-contents">
 			<div class="logo">
-				<a href="index">영화 예매</a>
+				<a href=""><img src="resources/images/logo.png"/></a>
 			</div>
 			<div class="menu-contents">
 				<a class="menu-item" href="cinema">영화관찾기</a> <a class="menu-item"
@@ -25,7 +25,7 @@
 			<span class="sr-only"></span>
 		</button>
 		<div class="logo">
-			<a href="/">영화예매</a>
+			<a href=""><img src="resources/images/logo.png"/></a>
 		</div>
 	</div>
 	<div class="ticket_content">
@@ -40,7 +40,7 @@
 		</div>
 		<div class="menu-contents">
 			<section class="menu-logo">
-				<a href="">영화 예매</a>
+				<a href=""><img src="resources/images/logo.png"/></a>
 			</section>
 			<div class="menu-items">
 				<div class="menu-items-img-text">
