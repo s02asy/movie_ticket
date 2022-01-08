@@ -8,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="resources/css/index.css"> 
     <title>대체로 맑음</title>
 </head>
-<body style="height: 100%; overflow-y: auto; z-index: 999">
+<body>
     <div id="wrap">
         <%@ include file = "header.jsp" %>
         <div id="banner">
@@ -34,7 +34,7 @@
             <!-- 인기 영화 최대 10개까지 노출 -->
             <div class="contents-container">
                 <div class="contents-title">현재상영작</div>
-                
+
 
 			</div>
            </div>

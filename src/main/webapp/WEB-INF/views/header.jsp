@@ -46,7 +46,7 @@
 				<div class="menu-items-img-text">
 					<img class="menu-item-img"
 						src="resources/images/ico_aside_menu1.png" /> <a
-						class="menu-item" id="side-home-menu" href="/">홈화면</a>
+						class="menu-item" id="side-home-menu" href="">홈화면</a>
 				</div>
 				<div class="menu-items-img-text">
 					<img class="menu-item-img"

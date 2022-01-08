@@ -1,4 +1,4 @@
-// main banner - 3초마다 3개의 이미지 변경
+// main banner - 2초마다 3개의 이미지 변경
 function changeBanner() {
     change($('#bannerIndex').val());
     var num = $('#bannerIndex').val();
@@ -29,7 +29,7 @@ function first_change() {
             document.getElementById('bannerIndex').setAttribute('value', num);
         }
     }
-    }, 3000);
+    }, 2000);
 }
 
 $('li','.label').mouseover(function(){
