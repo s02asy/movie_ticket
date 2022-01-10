@@ -5,16 +5,16 @@
 <mapper namespace="org.movie.mappers.movie">
 
 	<!-- 현재 상영중인 영화 -->
-	<select id="selectNowShowing" resultType="org.movie.vo.MovieVo">
+	<select id="movieSelectNowShowing" resultType="org.movie.DTO.MovieDTO">
 		select * from movie <![CDATA[where opening_date <= ${nowDate} and closing_date >= ${nowDate}]]> order by desc
 	</select>
 
 	<!-- 개봉 예정인 영화 -->
-	<select id="selectNotShowing" resultType="org.movie.vo.MovieVo">
+	<select id="movieSelectNotShowing" resultType="org.movie.DTO.MovieDTO">
 		select * from movie where opening_date >= ${nowDate} order by desc
 	</select>
 	
-	<select id="selectOne" resultType="org.movie.vo.MovieVo">
+	<select id="movieSelectOne" resultType="org.movie.DTO.MovieDTO">
 		select * from movie where movie_id = #{movie_id}
 	</select>
 </mapper>

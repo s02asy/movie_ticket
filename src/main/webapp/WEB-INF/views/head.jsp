@@ -4,6 +4,6 @@
 <link type="text/css" rel="stylesheet" href="resources/css/header.css"> 
 <link type="text/css" rel="stylesheet" href="resources/css/footer.css">
 <link rel="shortcut icon" href="resources/images/sun.png">
-<link type="text/css" rel="stylesheet" href="resources/css/menusign.css">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="resources/js/jquery-3.4.1.min.js"></script>
 <script src="resources/js/common.js"></script>

@@ -10,10 +10,12 @@
 		<property name="username" value="spring"></property>
 		<property name="password" value="sesac2424."></property>
 	</bean>	
+	
 	<!-- MyBatis 설정 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 	  <property name="dataSource" ref="ds" />
-	  <property name="mapperLocations" value="classpath*:org/sesac/mappers/*.xml" />
+<!-- 	  <property name="mapperLocations" value="classpath*:org/sesac/mappers/*.xml" /> -->
+	  <property name="mapperLocations" value="classpath*:org/movie/mappers/*.xml" />
 	</bean>
 	
 	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">

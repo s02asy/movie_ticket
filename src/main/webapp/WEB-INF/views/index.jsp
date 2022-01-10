@@ -5,7 +5,7 @@
 <html lang="ko">
 <head>
     <%@ include file = "head.jsp" %>
-    <link type="text/css" rel="stylesheet" href="resources/css/index.css"> 
+    <link type="text/css" rel="stylesheet" href="resources/css/index.css">
     <title>대체로 맑음</title>
 </head>
 <body>

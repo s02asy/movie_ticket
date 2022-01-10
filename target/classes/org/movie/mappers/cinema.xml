@@ -3,10 +3,15 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.movie.mappers.cinema">
-	<select id="selectAll" resultType="org.movie.vo.CinemaVo">
+	<select id="cinemaSelectAll" resultType="org.movie.DTO.CinemaDTO">
 		select * from cinema
 	</select>
-	<select id="selectOne" resultType="org.movie.vo.CinemaVo">
+	
+	<select id="cinemaSelectOne" resultType="org.movie.DTO.CinemaDTO">
 		select * from cinema where cinema_id = #{cinema_id}
+	</select>
+	
+	<select id="cinemaSearchAddr" resultType="org.movie.DTO.CinemaDTO">
+		select * from cinema where address like CONCAT(#{addr},'%')
 	</select>
 </mapper>
